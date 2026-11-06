@@ -12,7 +12,7 @@ We classify IMDB movie reviews as *negative* or *positive* and compare:
 | **mlp** (128) | 87.77 ± 0.29 | 87.94 ± 0.33 | 88.15 ± 0.26 |
 | **small-mlp** (16) | 87.77 ± 0.32 | 88.03 ± 0.37 | **88.17 ± 0.26** |
 
-Mean ± std over 15 folds (5 folds × 3 seeds). Slides: [`docs/presentation.pdf`](docs/presentation.pdf).
+Mean ± std over 15 folds (5 folds × 3 seeds). Slides: [PDF](docs/presentation.pdf) · [PowerPoint](docs/presentation.pptx) · [HTML](docs/presentation.html).
 
 ## Contents
 
@@ -30,7 +30,9 @@ Mean ± std over 15 folds (5 folds × 3 seeds). Slides: [`docs/presentation.pdf`
 │   │                            logistic: final train/val loss and accuracy
 │   └── models/                  BPE tokenizer and the 135 trained models (each fold with its history.json)
 └── docs/
-    └── presentation.pdf         the slides
+    ├── presentation.pdf         the slides (PDF)
+    ├── presentation.pptx        the slides (PowerPoint)
+    └── presentation.html        the slides (HTML, open in a browser)
 ```
 
 ## Setup
