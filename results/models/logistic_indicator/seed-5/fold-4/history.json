@@ -1,0 +1,8 @@
+{
+  "solver_iterations": 100,
+  "converged": false,
+  "train_loss": 0.12620390929373534,
+  "train_acc": 0.9595462758482233,
+  "val_loss": 0.3953822165496993,
+  "val_acc": 0.8632530120481928
+}
